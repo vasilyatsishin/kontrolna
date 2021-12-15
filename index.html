@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="instruments i1">
+            <button class="inst-but b1" disabled><img src="./icons/code.png" alt=""></button>
+        </div>
+        <div class="instruments i2">
+            <button class="inst-but b2"><img src="./icons/bold.png" alt=""></button>
+            <button class="inst-but b3"><img src="./icons/italic.png" alt=""></button>
+            <button class="inst-but b4"><img src="./icons/underline.png" alt=""></button>
+            <button class="inst-but b5"><img src="./icons/strike.png" alt=""></button>
+        </div>
+        <div class="instruments i3">
+            <button class="inst-but b6"><img src="./icons/left.png" alt=""></button>
+            <button class="inst-but b7"><img src="./icons/centre.png" alt=""></button>
+            <button class="inst-but b8"><img src="./icons/right.png" alt=""></button>
+        </div>
+        <div class="instruments i4">
+            <select name="" class="inst-but b9">
+                <option value="" style="display: none;">A</option>
+                <option value="sans-serif">Sans Serif</option>
+                <option value="monospace">Monospace</option>
+                <option value="roboto">Roboto</option>
+                <option value="Montserrat">Montserrat</option>
+                <option value="oswald">Oswald</option>
+            </select>
+            <select name="" class="inst-but b10">
+                <option value="" style="display: none;">T</option>
+                <option value="12px">12px</option>
+                <option value="14px">14px</option>
+                <option value="16px">16px</option>
+                <option value="18px">18px</option>
+                <option value="20px">20px</option>
+                <option value="22px">22px</option>
+                <option value="25px">25px</option>
+                <option value="30px">30px</option>
+            </select>
+            <button class="inst-but b11"><img src="./icons/paint.png" alt=""></button>
+            <button class="inst-but b12"><img src="./icons/background.png" alt=""></button>
+        </div>
+        <div class="instruments i5">
+            <button class="inst-but b13"><img src="./icons/lock.png" alt="" class="mazhka"></button>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            
+        </div>
+    </main>
+    <div class="modalTextColor">
+        <h1 class="tccText">Choose text color</h1>
+        <a class="crestik">&times</a>
+        <hr>
+        <div class="tccPalitr">
+            <div class="tcc tcc1" data-color="red"></div>
+            <div class="tcc tcc2" data-color="blue"></div>
+            <div class="tcc tcc3" data-color="brown"></div>
+            <div class="tcc tcc4" data-color="pink"></div>
+            <div class="tcc tcc5" data-color="purple"></div>
+            <div class="tcc tcc6" data-color="yellow"></div>
+            <div class="tcc tcc7" data-color="green"></div>
+            <div class="tcc tcc8" data-color="coral"></div>
+            <div class="tcc tcc9" data-color="orange"></div>
+            <div class="tcc tcc10" data-color="gold"></div>
+            <div class="tcc tcc11" data-color="gray"></div>
+            <div class="tcc tcc12" data-color="tomato"></div>
+            <div class="tcc tcc13" data-color="darkgray"></div>
+            <div class="tcc tcc14" data-color="white"></div>
+            <div class="tcc tcc15" data-color="black"></div>
+        </div>
+    </div>
+
+    <div class="modalBackground">
+        <h1 class="bgctitle">Choose background color or image</h1>
+        <a class="crestik2">&times</a>
+        <div class="bgButtons">
+            <button class="bgButton bg1">Colors</button>
+            <button class="bgButton bg2">Images</button>
+            <button class="bgButton bg3">Files</button>
+        </div>
+        <div class="bgcPalitr">
+            <div class="bgc bgc1" data-color="red"></div>
+            <div class="bgc bgc2" data-color="blue"></div>
+            <div class="bgc bgc3" data-color="brown"></div>
+            <div class="bgc bgc4" data-color="pink"></div>
+            <div class="bgc bgc5" data-color="purple"></div>
+            <div class="bgc bgc6" data-color="yellow"></div>
+            <div class="bgc bgc7" data-color="green"></div>
+            <div class="bgc bgc8" data-color="coral"></div>
+            <div class="bgc bgc9" data-color="orange"></div>
+            <div class="bgc bgc10" data-color="gold"></div>
+            <div class="bgc bgc11" data-color="gray"></div>
+            <div class="bgc bgc12" data-color="tomato"></div>
+            <div class="bgc bgc13" data-color="darkgray"></div>
+            <div class="bgc bgc14" data-color="white"></div>
+            <div class="bgc bgc15" data-color="black"></div>
+        </div>
+        <div class="bgcImages">
+            <img src="./background/back1.jpg" class="bgImage bgi1">
+            <img src="./background/back2.jpg" class="bgImage bgi2">
+            <img src="./background/back3.jpg" class="bgImage bgi3">
+            <img src="./background/back4.jpg" class="bgImage bgi4">
+            <img src="./background/back5.jpg" class="bgImage bgi5">
+            <img src="./background/back6.jpg" class="bgImage bgi6">
+        </div>
+        <div class="bgcFiles">
+            <div class="form">
+                <input type="file" class="bgFile">
+                <div class="labels">
+                    <label for="bgFile" class="bgFileCh">Choose File...</label>
+                    <label for="bgFile" class="bgFileBrow">Browse...</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="register">
+        <h1 class="signIn">Sign In</h1>
+        <hr>
+        <form action="" class="reg">
+            <input type="text" class="r name">
+            <input type="password" class="r password">
+            <input type="button" value="Sign In" class="r bsign">
+        </form>
+    </div>
+    <div class="modalConfirm">
+        <button class="mb mcc">Cancel</button>
+        <button class="mb mcn">Sign Out</button>
+    </div>
+    <div class="modalTable">
+        <h1 class="mttitle">Create Table</h1>
+        <a class="mtcrestik">&times</a>
+        <hr>
+        <div class="params p1">
+            <div class="inputs">
+                <p class="par">Count TR:</p>
+                <input type="text" class="inp counttr" placeholder="Type here...">
+            </div>
+            <div class="inputs">
+                <p class="par">Count TD:</p>
+                <input type="text" class="inp countd" placeholder="Type here...">
+            </div>
+        </div>
+        <div class="params p2">
+            <div class="inputs">
+                <p class="par">Width of TD:</p>
+                <input type="text" class="inp widthtd" placeholder="Type here...">
+            </div>
+            <div class="inputs">
+                <p class="par">Height of TD:</p>
+                <input type="text" class="inp heighttd" placeholder="Type here...">
+            </div>
+        </div>
+        <div class="params p3">
+            <div class="inputs">
+                <p class="par">Width of border:</p>
+                <input type="text" class="inp widthbor" placeholder="Type here...">
+            </div>
+            <div class="inputs vipad">
+                <div class="bstyle">
+                    <p class="par">Color of border:</p>
+                    <select class="borcolor">
+                        <option value="" class="tcolor">Choose Color...</option>
+                        <option value="black" class="tcolor">Black</option>
+                        <option value="green" class="tcolor">Green</option>
+                        <option value="red" class="tcolor">Red</option>
+                        <option value="yellow" class="tcolor">Yellow</option>
+                        <option value="white" class="tcolor">White</option>
+                        <option value="gray" class="tcolor">Gray</option>
+                        <option value="pink" class="tcolor">Pink</option>
+                        <option value="blue" class="tcolor">Blue</option>
+                    </select>
+                </div>
+                <div class="bcolor">
+                    <p class="par">Style of border:</p>
+                    <select class="borstyle">
+                        <option class="tstyle">Choose style...</option>
+                        <option class="tstyle" value="dashed">Dashed</option>
+                        <option class="tstyle" value="dotted">Dotted</option>
+                        <option class="tstyle" value="solid">Solid</option>
+                        <option class="tstyle" value="double">Double</option>
+                        <option class="tstyle" value="groove">Groove</option>
+                        <option class="tstyle" value="ridge">Ridge</option>
+                        <option class="tstyle" value="inset">Inset</option>
+                        <option class="tstyle" value="outset">Outset</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="butRes">
+            <button class="reset">Reset</button>
+            <button class="create">Create Table</button>
+        </div>
+    </div>
+    <div class="createNList">
+
+    </div>
+    <div class="createList">
+        <h1 class="clisttitle">Create UI</h1>
+        <a class="crestikList">&times</a>
+        <hr>
+        <div class="clistpar">
+            <p class="licount">Count li item:</p>
+            <input type="text" class="clistinp licountinp">
+        </div>
+        <div class="clistpar">
+            <p class="litype">Type of mark list:</p>
+            <select class="markType">
+                <option value="Choose UI type of mark" class="uitype">Choose UI type of mark</option>
+                <option value="circle" class="uitype">Circle</option>
+                <option value="disc" class="uitype">Disc</option>
+                <option value="square" class="uitype">Square</option>
+            </select>
+        </div>
+        <div class="createUL">
+            <button class="resetUI">Reset</button>
+            <button class="createlist">Create List</button>
+        </div>
+    </div>
+
+    <div class="createListOi">
+        <h1 class="clisttitle">Create OI</h1>
+        <a class="crestikListOi">&times</a>
+        <hr>
+        <div class="clistpar">
+            <p class="licountOi">Count li item:</p>
+            <input type="text" class="clistinp licountinpOi">
+        </div>
+        <div class="clistpar">
+            <p class="litype">Type of mark list:</p>
+            <select class="markTypeOI">
+                <option value="Choose UI type of mark" class="oitype">Choose OI type of mark</option>
+                <option value="I" class="oitype">I</option>
+                <option value="i" class="oitype">i</option>
+                <option value="a" class="oitype">a</option>
+                <option value="A" class="oitype">A</option>
+            </select>
+        </div>
+        <div class="createUL">
+            <button class="resetOI">Reset</button>
+            <button class="createlistOI">Create List</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

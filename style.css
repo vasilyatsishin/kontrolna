@@ -1,0 +1,555 @@
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(./Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(./Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh; 
+}
+
+header{
+    background-color: rgb(65, 61, 61);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13%;
+}
+
+.inst-but{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.b1{
+    background-color: rgba(0,0,0,.2);
+}
+
+.instruments{
+    margin: 0 5px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main{
+    height: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 80%;
+    width: 80%;
+}
+
+.b9 .b10{
+    display: flex;
+    justify-content: flex-start;
+}
+
+option{
+    text-align: left;
+}
+
+.modalTextColor{
+    position: absolute;
+    left: 50%;
+    top: 37.9%;
+    height: 60%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: white;
+    display: none;
+}
+
+.tccPalitr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tcc{
+    height: 75px;
+    margin: 10px;
+    width: 15%;
+}
+
+.tccText{
+    font-family: sans-serif;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.crestik{
+    color: gray;
+    text-decoration: none;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modalBackground{
+    position: absolute;
+    left: 50%;
+    top: 37.9%;
+    height: 65%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: white;
+    display: none;
+}
+
+.bgcPalitr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bgc{
+    height: 75px;
+    margin: 10px;
+    width: 15%;
+}
+
+.bgctitle{
+    font-family: sans-serif;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.bgButtons{
+    height: 40px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.bgButton{
+    height: 92%;
+    width: 65px;
+    background-color: white;
+    color: rgb(44, 102, 179);
+    border: 0;
+    margin-right: -4px;
+}
+
+.bg1{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 2px;
+    height: 105%;
+}
+
+.bgcImages{
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.bgImage{
+    width: 30%;
+    height: 115px;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+.crestik2{
+    color: gray;
+    text-decoration: none;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.bgFile{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+}
+
+.form{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.bgcFiles{
+    display: none;
+    justify-content: center;
+    height: 50%;
+}
+
+.labels{
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+}
+
+.bgFileCh{
+    width: 80%;
+}
+
+.bgFileBrow{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.568);
+}
+
+.register{
+    position: absolute;
+    height: 45%;
+    width: 40%;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.signIn{
+    font-family: sans-serif;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.r{
+    width: 90%;
+    margin: 5px 0;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.bsign{
+    width: 91.8%;
+    background-color: rgb(87, 75, 75);
+    margin-top: 40px;
+}
+
+.tarea{
+    height: 80%;
+    width: 80%;
+    border: 0;
+}
+
+.i6{
+    margin: 0 5px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.new-but{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.modalConfirm{
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mb{
+    height: 70%;
+    width: 45%;
+    margin: 0 7px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.mcc{
+    background-color: rgb(34, 31, 31);
+}
+
+.mcn{
+    background-color: red;
+}
+
+.modalTable{
+    display: none;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+}
+
+.params{
+    display: flex;
+}
+
+.inputs{
+    margin: 0 15px;
+}
+
+hr{
+    width: 100%;
+}
+
+.inp{
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    width: 250px;
+}
+
+.vipad{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bcolor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.borcolor{
+    height: 40px;
+    width: 122px;
+    border-radius: 5px;
+}
+
+.borstyle{
+    height: 40px;
+    width: 122px;
+    border-radius: 5px;
+}
+
+.par{
+    margin: 10px;
+}
+
+.butRes{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    background-color: white;
+    margin-top: 45px;
+}
+
+.mttitle{
+    margin: 15px;
+    font-size: 20px;
+    width: 100%;
+    padding-left: 60px;
+}
+
+.reset{
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    width: 258px;
+    height: 39px;
+    color: white;
+}
+
+.create{
+    border-radius: 5px;
+    border: 0;
+    background-color: green;
+    width: 262px;
+    color: white;
+}
+
+.mtcrestik{
+    position: absolute;
+    top: 15px;
+    left: 560px;
+    margin-top: 5px;
+}
+
+.createList{
+    width: 500px;
+    height: 300px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.clisttitle{
+    margin-right: 310px;
+    font-size: 20px;
+}
+
+.clistpar{
+    width: 80%;
+    
+}
+
+.litype{
+    margin: 0;
+}
+
+.licount{
+    margin: 0;
+}
+
+.licountinp{
+    width: calc(100% - 7px);
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.markType{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.resetUI{
+    width: 48%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+}
+
+.createUL{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.createlist{
+    width: 48%;
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.crestikList{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 390px;
+}
+
+.createListOi{
+    width: 500px;
+    height: 300px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.crestikListOi{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 390px;
+}
+
+.markTypeOI{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.licountOi{
+    margin: 0;
+}
+
+.licountinpOi{
+    width: calc(100% - 7px);
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.resetOI{
+    width: 48%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+}
+
+.createlistOI{
+    width: 48%;
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+}
